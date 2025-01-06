@@ -2,7 +2,7 @@ def second_index(text, letters):
     first_index = text.find(letters)
 
     if first_index == -1:
-        return
+      return
 
     second_index = text.find(letters, first_index + 1)
 
